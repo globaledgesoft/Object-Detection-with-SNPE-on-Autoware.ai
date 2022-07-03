@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="vision_object_detect_snpe" name="read_camera_feed" type="read_camera_feed.py" output="screen">
+    </node>
+
+    <node pkg="vision_object_detect_snpe" name="post_processing" type="post_processing.py" output="screen">
+    </node>
+
+</launch>
